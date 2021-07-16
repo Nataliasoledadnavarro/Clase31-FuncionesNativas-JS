@@ -276,6 +276,17 @@ console.log(sonIguales("NO ESTOY GRITANDO", "ESTOY GRITANDO"));*/
     return quintoReemplazo
   }*/
 
+// EJERCICIO 10 //
+
+/* const obtenerPrimeraOracion = (str) => {
+    let punto = str.indexOf(".")
+    
+    if (str.includes(".")) {return str.slice(0, punto)
+                           }
+     else {return str}
+                           }*/
+
+
 //ejercicio 13 // Pensar como reducir uso de variables
 
 /*const obtenerExtension = (archivo) => {
