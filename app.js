@@ -255,3 +255,29 @@ console.log(sonIguales("NO ESTOY GRITANDO", "ESTOY GRITANDO"));*/
   return extensionSinPunto
   
 }*/
+
+// EJERCICIO 14 /// CONSULTAR SI ESTA LA POSIBIIDAD DE HACER NO INCLUDES.
+
+/*const esPuenteSeguro = (puente) => {
+  return puente.includes(" ") === false;
+};
+
+console.log(esPuenteSeguro("### ##"));
+
+console.log(esPuenteSeguro("##### ####"));
+
+console.log(esPuenteSeguro("########"));*/
+
+///EJERCICIO 16 ///
+
+/*const esAnioNuevo = (fecha) => {
+  let dia = fecha.slice(0, 2);
+  let mes = fecha.slice(3, 5);
+
+  return dia === "01" && mes === "01";
+};
+
+console.log(esAnioNuevo("03/05/2015"));
+console.log(esAnioNuevo("22/01/1987"));
+console.log(esAnioNuevo("01/01/2020"));
+*/
