@@ -183,6 +183,12 @@ console.log(tienenMismaLongitud("javascript", "java"));
 
 console.log(tienenMismaLongitud("manzana", "cerveza"));*/
 
+/// EJERCICIO 2 ///
+
+/*const esElUltimoCaracter = (palabra, caracter) => {
+  return palabra.slice(-1) === caracter
+}
+*/
 /// EJERICICIO 3 ///
 
 /*const esValida = (contrasenia) => {
@@ -241,6 +247,34 @@ console.log(sonIguales("NO ESTOY GRITANDO", "ESTOY GRITANDO"));*/
   console.log(esFraccionMayorAUno('2/2'))
 
   console.log(esFraccionMayorAUno('4/2'))*/
+
+// EJERCICIO 8 //
+/*const capitalizar = (str) => {
+    let primeraLetra = str.charAt(0);
+    let primeraLetraMayuscula = primeraLetra.toUpperCase()
+    let restoDelString = str.slice(1);
+    
+    return primeraLetraMayuscula + restoDelString
+    
+    
+  }*/
+
+/// EJERCICIO 9 ////
+
+/*const aHackerSpeak = (str) => {
+  
+    let primerReemplazo = str.replace(/i/gi,"1");
+    
+    let segundoReemplazo = primerReemplazo.replace(/e/gi,"3");
+    
+    let tercerReemplazo = segundoReemplazo.replace(/a/gi,"4");
+    
+    let cuartoReemplazo = tercerReemplazo.replace(/s/gi,"5");
+    
+    let quintoReemplazo = cuartoReemplazo.replace(/o/gi,"0");
+  
+    return quintoReemplazo
+  }*/
 
 //ejercicio 13 // Pensar como reducir uso de variables
 
