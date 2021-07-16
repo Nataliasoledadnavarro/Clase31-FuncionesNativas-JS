@@ -225,3 +225,33 @@ console.log(sonIguales("NO ESTOY GRITANDO", "ESTOY GRITANDO"));*/
   }
   
   console.log(burlarse('programar es dificil'))*/
+
+/// EJERCICIO 7 /// TIENE IFS INNECESARIOS
+
+/*const esFraccionMayorAUno = (fraccion) => {
+    let numerador = fraccion.charAt(0)
+    let denominador = fraccion.charAt(2)
+    
+    if((numerador/denominador) > 1){ return true}
+    else{return false}
+  }
+
+  console.log(esFraccionMayorAUno('1/2'))
+
+  console.log(esFraccionMayorAUno('2/2'))
+
+  console.log(esFraccionMayorAUno('4/2'))*/
+
+//ejercicio 13 // Pensar como reducir uso de variables
+
+/*const obtenerExtension = (archivo) => {
+  
+  let ubicacionPunto = archivo.indexOf(".")
+  
+  let extension = archivo.slice(ubicacionPunto)
+  
+  let extensionSinPunto = extension.slice(1)
+  
+  return extensionSinPunto
+  
+}*/
