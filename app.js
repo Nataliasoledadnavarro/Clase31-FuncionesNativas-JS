@@ -207,22 +207,10 @@ console.log(tienenMismaLongitud("manzana", "cerveza"));*/
 //// ejercicio 4 ////  RESOLVER PORQUE EL ULTIMO CONSOLE.LOG RETORNA TRUE
 
 /*const sonIguales = (a, b) => {
-  let aMayuscula = a.tolowerCase;
+return a.toUpperCase() === b.toUpperCase()
+}
 
-  let bMayuscula = b.tolowerCase;
-
-  if (aMayuscula === bMayuscula) {
-    return true;
-  } else {
-    return false;
-  }
-};
-
-console.log(sonIguales("javascript", "JavaScript"));
-
-console.log(sonIguales("AdA LoVeLaCe", "Ada Lovelace"));
-
-console.log(sonIguales("NO ESTOY GRITANDO", "ESTOY GRITANDO"));*/
+console.log(sonIguales('NO ESTOY GRITANDO', 'ESTOY GRITANDO'))*/
 
 /// ejercicio 6 ///
 
@@ -286,6 +274,10 @@ console.log(sonIguales("NO ESTOY GRITANDO", "ESTOY GRITANDO"));*/
      else {return str}
                            }*/
 
+/*/// EJERCICIO 12 ///
+const removerVocales = (str) => {
+  return str.replace(/a|e|i|o|u/gi, "")
+}*/
 
 //ejercicio 13 // Pensar como reducir uso de variables
 
